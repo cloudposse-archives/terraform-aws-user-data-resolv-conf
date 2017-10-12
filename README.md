@@ -1,1 +1,1 @@
-# terraform-template-user-data-dns-resolv
+# terraform-aws-user-data-dns-resolv
