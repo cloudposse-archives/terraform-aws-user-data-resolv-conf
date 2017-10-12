@@ -1,1 +1,1 @@
-# tf_user_data_dns_proxy_resolv
+# terraform-template-user-data-dns-resolv
