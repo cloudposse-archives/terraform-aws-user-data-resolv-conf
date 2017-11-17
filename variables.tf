@@ -16,7 +16,7 @@ variable "domain" {
   description = "Host that should be resolved with custom dns server"
 }
 
-variable "os" {
-  default     = "ubuntu"
-  description = "Server OS that will execute user data script"
+variable "flavor" {
+  default     = "debian-systemd"
+  description = "Flavor denpends of OS and init system"
 }
