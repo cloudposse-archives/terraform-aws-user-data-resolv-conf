@@ -66,16 +66,16 @@ Available targets:
 | dns_ip | IP of dns server | string | - | yes |
 | domain | Host that should be resolved with custom dns server | string | - | yes |
 | flavor | Flavor depends of OS and init system | string | `debian-systemd` | no |
-| name |  | string | - | yes |
-| namespace |  | string | - | yes |
+| name | Name  (e.g. `app` or `cluster`) | string | - | yes |
+| namespace | Namespace (e.g. `cp` or `cloudposse`) | string | - | yes |
 | region | AWS region instance running in | string | - | yes |
-| stage |  | string | - | yes |
+| stage | Stage (e.g. `prod`, `dev`, `staging`) | string | - | yes |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| user_data |  |
+| user_data | Script to be executed by instance on startup |
 
 
 
@@ -91,14 +91,14 @@ Are you using this project or any of our other projects? Consider [leaving a tes
 
 Check out these related projects.
 
-- [terraform-template-user-data-assests](https://travis-ci.org/cloudposse/terraform-template-user-data-assests) - terraform-template-user-data-assests
-- [terraform-template-user-data-cloud](https://travis-ci.org/cloudposse/terraform-template-user-data-cloud) - terraform-template-user-data-cloud
-- [terraform-aws-user-data-dns-proxy](https://travis-ci.org/cloudposse/terraform-aws-user-data-dns-proxy) - terraform-aws-user-data-dns-proxy
-- [terraform-aws-user-data-s3-backend](https://travis-ci.org/cloudposse/terraform-aws-user-data-s3-backend) - terraform-aws-user-data-s3-backend
-- [terraform-template-user-data-dba](https://travis-ci.org/cloudposse/terraform-template-user-data-dba) - terraform-template-user-data-dba
-- [terraform-template-user-data-dba](https://travis-ci.org/cloudposse/terraform-template-user-data-dba) - terraform-template-user-data-dba
-- [terraform-template-user-data-github-authorized-keys](https://travis-ci.org/cloudposse/terraform-template-user-data-github-authorized-keys) - terraform-template-user-data-github-authorized-keys
-- [terraform-template-user-data-nfs](https://travis-ci.org/cloudposse/terraform-template-user-data-nfs) - terraform-template-user-data-nfs
+- [terraform-template-user-data-assests](https://github.com/cloudposse/terraform-template-user-data-assests) - terraform-template-user-data-assests
+- [terraform-template-user-data-cloud](https://github.com/cloudposse/terraform-template-user-data-cloud) - terraform-template-user-data-cloud
+- [terraform-aws-user-data-dns-proxy](https://github.com/cloudposse/terraform-aws-user-data-dns-proxy) - terraform-aws-user-data-dns-proxy
+- [terraform-aws-user-data-s3-backend](https://github.com/cloudposse/terraform-aws-user-data-s3-backend) - terraform-aws-user-data-s3-backend
+- [terraform-template-user-data-dba](https://github.com/cloudposse/terraform-template-user-data-dba) - terraform-template-user-data-dba
+- [terraform-template-user-data-dba](https://github.com/cloudposse/terraform-template-user-data-dba) - terraform-template-user-data-dba
+- [terraform-template-user-data-github-authorized-keys](https://github.com/cloudposse/terraform-template-user-data-github-authorized-keys) - terraform-template-user-data-github-authorized-keys
+- [terraform-template-user-data-nfs](https://github.com/cloudposse/terraform-template-user-data-nfs) - terraform-template-user-data-nfs
 
 
 
